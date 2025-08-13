@@ -4,7 +4,7 @@ body {
     font-family: sans-serif;
 }
 
-.main-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,28 +14,69 @@ body {
 }
 
 .logo img {
-    height: 40px; /* Ajuste o tamanho da sua logo */
+    height: 40px; 
 }
 
-.main-nav ul {
+.nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 20px; /* Espaço entre os itens do menu */
+    gap: 20px; 
 }
 
-.main-nav a {
+.nav a {
     text-decoration: none;
     color: #555;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
-.main-nav a:hover {
+.a:hover {
     color: #000;
 }
 
-.cart img {
-    height: 30px; /* Ajuste o tamanho do ícone do carrinho */
+.carrinho img {
+    height: 30px; 
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('imagens/bolsa-wallpaper.jpg');
+    object-fit: cover;
+    height: 500px;
+    border: #2b2b2b solid 1px;
+}
+
+.hero-text {
+    padding: 20px;
+    text-align: left;
+    width: 400px;
+    margin-left: 100px;
+} 
+
+
+.hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    width: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+    color: #666;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hero-text button {
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
 }
